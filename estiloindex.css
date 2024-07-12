@@ -1,0 +1,316 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+.navbar {
+    background-color: #000;
+}
+.navbar-brand, .nav-link {
+    color: #fff;
+}
+.btn-custom {
+    background-color: #ccff00;
+    color: #000;
+}
+.section {
+    padding: 60px 0;
+}
+.header-section {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.header-section h1 {
+    color: #fff;
+}
+.header-section .btn {
+    background-color: #ccff00;
+    color: #000;
+    margin-top: 20px;
+}
+.table-section, .grid-section, .form-section {
+    text-align: center;
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    color: #ccff00;
+}
+.grid-img {
+    height: 100%;
+    object-fit: cover;
+}
+footer {
+background-color: #0b1122;
+color: #ffffff;
+padding: 40px 0;
+}
+
+.footer-container {
+display: flex;
+justify-content: space-between;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.footer-section {
+flex: 1;
+margin: 0 10px;
+}
+
+.footer-section h3 {
+color: #d3ff67;
+margin-bottom: 10px;
+}
+
+.footer-section p {
+font-size: 14px;
+line-height: 1.6;
+}
+
+.footer-section ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-section ul li {
+margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+color: #ffffff;
+text-decoration: none;
+font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+text-decoration: underline;
+}
+
+.social-icons a {
+display: inline-block;
+margin-right: 10px;
+}
+
+.social-icons img {
+width: 24px;
+height: 24px;
+}
+.imgflex{
+margin-left: 50px;
+margin-right: 100px;
+padding: auto;
+border: #ccff00;
+border-radius: 0px;
+border-style: outset;
+}
+.container1{
+display: flex;
+margin-left: 200px;
+text-align: left;
+}
+.subtitle{
+color: #ccff00;
+}
+.col-4{
+text-align: center;
+border: #ccff00;
+border-radius: 0px;
+border-style: outset;
+
+}
+.tabla{
+text-align: center;
+border: #ccff00;
+border-radius: 0px;
+border-style: outset;
+
+
+}
+.container2{
+text-align: left;
+
+}
+.textgreen{
+color: #ccff00;
+}
+.flex{
+display: flex;
+}
+.buttongrid{
+margin-left: 300px;
+}
+.imgapp{
+    height: 450px;
+    width: 100%;
+    border-radius: 20px;
+    border: #ffffff;
+    border-style: outset;
+    padding: 2px;
+
+}
+.img-overlay {
+    position: relative;
+    display: inline-block;
+}
+.img-overlay img {
+    display: block;
+    width: 1100px;
+    height: 400px;
+    
+    
+}
+.img-overlay .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con transparencia */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+.spangreen{
+    color: #ccff00;
+}
+.diseño{
+    text-align: center;
+}
+.section-diseño{
+    justify-content: space-between;
+    display: flex;
+}
+.section-diseño{
+    text-align: center;
+}
+.section-diseño p{
+    font-size: 12px;
+    width: 260px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.btntuto{
+    background-color: #ffffff;
+    color: #000;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+}
+.card{
+    background-color: #ccff00;
+    width: 100%;
+    padding:20px
+}
+.card p{
+    color: #000;
+}
+.card button{
+    margin-left: 55px;
+}
+.column {
+    border-right: 1px solid #ccc; /* Línea de separación */
+    padding: 20px;
+}
+.column:last-child {
+    border-right: none; /* Elimina la línea de la última columna */
+}
+.h2column{
+text-align: center;
+}
+.columntxt{
+    text-align: center;
+    font-size: 12px;
+}
+.tutos{
+    background-color: #ccff00;
+    height: 300px;
+}
+.tutos h2{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 70px;
+    color: #000;
+}
+.tutos p{
+    text-align: center;
+    color: #000;
+}
+.tutos button{
+    margin-left: 640px;
+    margin-top: 40px;
+}
+.contact{
+    display: flex;
+    background-color: #ccff00;
+    padding: 70px;
+}
+.contact p{
+    margin-top: 120px;
+    text-align: center;
+    padding: 40px;
+    color: #000;
+}
+.imgcontact{
+    width: 100%;
+}
+.contact button{
+    border-radius:10px;
+    
+}
+.form-container {
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container input[type="text"] {
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ccff00;
+    background-color: black;
+    color: #ccc;
+}
+
+.form-container .buttons {
+    display: flex;
+    margin-left: 480px;
+    padding: 10px;
+}
+
+.form-container .buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container .buttons .submit {
+    background-color: #ffffff;
+    color: black;
+}
+
+.form-container .buttons .reset {
+    background-color: #ffffff;
+    color: black;
+}
+.form{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.cancelbtn{
+    margin-left: 45px;
+}
+.sentbtn{
+    margin-right: 45px;
+}
